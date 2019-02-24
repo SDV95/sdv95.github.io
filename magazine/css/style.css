@@ -1,0 +1,254 @@
+@import url(reset.css);
+.clear{
+	clear:both;
+}
+body{
+	font:13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+	background:url(../images/mainbg.jpg);
+	color:#5e5e5e;
+}
+a{
+	text-decoration:none;
+	color:#5e5e5e;
+}
+a:hover{
+	text-decoration:underline;
+}
+P{
+	margin-top:7px;
+	margin-bottom:12px;
+}
+h2{
+	font-size:18px;
+	line-height:1.1;
+	margin-bottom:7px;
+}
+#logo{
+	width:241px;
+	height:46px;
+	float:left;
+	margin-top:44px;
+	margin-bottom:42px;
+	margin-left:10px;
+}
+#banner{
+	width:468px;
+	height:60px;
+	float:right;
+	margin-top:36px;
+	margin-bottom:36px;
+	margin-right:10px;
+}
+#top-menu{
+	height:49px;
+	background:url(../images/topmenubg.png) repeat-x;
+	min-width:960px;
+}
+#inner-menu,#wrapper,#middle-content,#header,#bottom-content{
+	min-width:960px;
+	max-width:1200px;
+	margin:0 auto;
+}
+#inner-menu ul li{
+	float:left;
+	text-transform:uppercase;
+}
+#inner-menu a{
+	color:#ebebeb;
+	font-size:12px;
+	padding:16px 15px;
+	display:block;
+}
+#inner-menu a:hover{
+	background:url(../images/menuhover.png)repeat;
+	text-decoration:none;
+}
+#sidebar{
+	width:300px;
+	float:right;
+	padding-right:10px;
+}
+#content{
+	margin-right:300px;
+	padding-left:10px;
+	padding-top:15px;
+	padding-right:38px;
+	padding-bottom:0;
+}
+.postcontent{
+	margin-left:180px;
+}
+.post{
+	border-bottom:1px dashed #e0e0e0;
+	overflow:hidden;
+	margin-top:14px;
+}
+.thumbnail{
+	float:left;
+	margin-bottom:15px;
+}
+.thumbnail img{
+	border:3px solid #e0e0e0;
+}
+.post-categories, .post-published{
+	font-family:Georgia, "Times New Roman", Times , serif ;
+	color:#aaaaaa;
+}
+.post-categories{
+	margin:0 0 4px 0;
+}
+#sidebar h3{
+	font-size:15px;
+	color:#999999;
+	text-transform:uppercase;
+	font-weight:bold;
+	background:url(../images/sidebarh3bg.png) repeat-x 0 5px;
+	padding-left:27px;
+	margin-top:26px;
+	margin-bottom:25px;
+}
+#sidebar h3 span{
+	background:url(../images/mainbg.jpg);
+	padding:0 6px 0 7px;
+}
+form{
+	width:220px;
+	margin:0 auto;
+}
+.textfield{
+	width:140px;
+	height:31px;
+	background:url(../images/inputbg.png)no-repeat;
+	float:left;
+}
+.textfield input{
+	background:none;
+	border:none;
+	font-size:12px;
+	color:#b1b1b1;
+	padding:8px 10px;
+	width:120px;
+	height:15px;
+}
+.firstrow , .secondrow {
+	width:270px;
+	margin:0 auto;
+}
+.left{
+	float:left;
+	display:block;
+}
+.right{
+	float:right;
+	display:block;
+}
+.secondrow{
+	margin-top:14px;
+}
+#categories ul{
+	width:140px;
+}
+#categories ul li{
+	border-top:1px dashed #e3e3e3;
+	padding:9px 0;
+}
+#categories ul li:first-child{
+	border:none;
+}
+#categories ul li a{
+	font-weight:bold;
+}
+#categories h3{
+	margin-bottom:15px;
+}
+#pagenation{
+	margin:34px 0;
+}
+#pagenation ul{
+	overflow:hidden;
+}
+#pagenation ul li{
+	float:left;
+	margin-right:2px;
+}
+#pagenation ul li a{
+	display:block;
+	padding:9px 14px 6px 14px;
+	border-bottom:3px solid #cccccc;
+}
+#pagenation ul li a:hover{
+	text-decoration:none;
+	background:#e7e7e7;
+}
+#pagenation .current, #pagenation .current:hover{
+	background:#333333;
+	color:#ffffff;
+	border:none;
+	padding-bottom:9px;
+}
+#pagenation .next{
+	padding-bottom:8px;
+	padding-top:7px;
+}
+#footer{
+	min-width:960px;
+	color:#e0e0e0;
+}
+#footer-top{
+	height:19px;
+	background: url(../images/footertopbg.png)repeat-x;
+}
+#footer-middle{
+	background:url(../images/footermiddlebg.png);
+}
+#middle-content{
+	padding-bottom:60px;
+}
+.footer-box{
+	padding-top:55px;
+	width:30%;
+	margin-right:5%;
+	float:left;
+}
+#footer-box{
+	margin-right:0;
+}
+#magazine{
+	background:url(../images/logofooter.png)no-repeat 10px 0;
+	padding:37px 0 0 10px;
+}
+#magazine p{
+	margin:16px 0;
+}
+#footer h3{
+	background:url(../images/footerh3bg.png)repeat-x 0 5px;
+	color:#ffffff;
+	text-transform:uppercase;
+	font-size:14px;
+	font-weight:bold;
+	width:220px;
+	margin-bottom:8px;
+}
+#footer h3 span{
+	background:url(../images/footermiddlebg.png);
+	padding-right:13px;
+}
+#archives{
+	padding-right:10px;
+}
+#recentposts ul li,#archives ul li{
+	padding:10px 0;
+	background:url(../images/dashedbg.png)repeat-x left bottom;
+}
+#recentposts ul li a,#archives ul li a{
+	color:#e0e0e0;
+}
+#footer-bottom{
+	background:url(../images/footerbottombg.png)repeat-x;
+}
+#footer-bottom p{
+margin:0;	
+}
+
+
+
